@@ -1,8 +1,8 @@
 const App = () => (
 <div>
-    <firstComponent />
+    <FirstComponent />
 
-    <namedComponent />
+    <NamedComponent />
 </div>
 )
 
