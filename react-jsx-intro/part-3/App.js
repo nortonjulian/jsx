@@ -1,5 +1,6 @@
 const App = () => {
-    <div>
+    return (
+        <div>
         <Person
          name="One"
          age={1}
@@ -15,6 +16,7 @@ const App = () => {
          age={3}
          hobbies={["three"]}/>
     </div>
+    )
 }
 
 ReactDOM.render(<App />, document.getElementById("root"))
